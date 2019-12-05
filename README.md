@@ -8,7 +8,7 @@
 |[Day 2](https://adventofcode.com/2019/day/2)|1202 Program Alarm|Java|
 |[Day 3](https://adventofcode.com/2019/day/3)|Crossed Wires|Java|
 |[Day 4](https://adventofcode.com/2019/day/4)|Secure Container|Java|
-|[Day 5](https://adventofcode.com/2019/day/5)|-|-|
+|[Day 5](https://adventofcode.com/2019/day/5)|Sunny with a Chance of Asteroids|-|
 |[Day 6](https://adventofcode.com/2019/day/6)|-|-|
 |[Day 7](https://adventofcode.com/2019/day/7)|-|-|
 |[Day 8](https://adventofcode.com/2019/day/8)|-|-|
