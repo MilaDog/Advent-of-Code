@@ -3,7 +3,7 @@
 [Advent of Code 2020](https://adventofcode.com/2020) - Solutions to each day
 
 |Calendar|Name|Solution Part 1|Solution Part 2|Language(s) used|
-|---|---|---|
+|---|---|---|---|---|
 |[Day 1](https://adventofcode.com/2020/day/1)|Report Repair|786811|199068980|Python|
 |[Day 2](https://adventofcode.com/2020/day/2)|Password Philosophy|614|354|Python|
 |[Day 3](https://adventofcode.com/2020/day/3)|Toboggan Trajectory|203|3316272960|Python|
