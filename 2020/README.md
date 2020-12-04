@@ -7,7 +7,7 @@
 |[Day 1](https://adventofcode.com/2020/day/1)|Report Repair|786811|199068980|Python|
 |[Day 2](https://adventofcode.com/2020/day/2)|Password Philosophy|614|354|Python|
 |[Day 3](https://adventofcode.com/2020/day/3)|Toboggan Trajectory|203|3316272960|Python|
-|[Day 4](https://adventofcode.com/2020/day/4)|-|-|-|-|
+|[Day 4](https://adventofcode.com/2020/day/4)|Passport Processing|170|103|Python|
 |[Day 5](https://adventofcode.com/2020/day/5)|-|-|-|-|
 |[Day 6](https://adventofcode.com/2020/day/6)|-|-|-|-|
 |[Day 7](https://adventofcode.com/2020/day/7)|-|-|-|-|

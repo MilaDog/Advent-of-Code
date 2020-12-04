@@ -21,6 +21,7 @@ def part2(lines):
 def main():
     script, fileName = argv
     d1File = open(fileName, "r").read().splitlines()
+    print(d1File)
     print(part1(d1File)) # 786811
     print(part2(d1File)) # 199068980
 
