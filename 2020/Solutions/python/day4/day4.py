@@ -68,17 +68,17 @@ def part2(passport):
         elif part[0] == 'pid':
             if val_pid(part[1]) == False:
                 valid = False
-        elif part[0] == 'cid':
-            if val_cid(passport) == False:
-                valid = False
         
     if valid == True:
         return True
 
 
+def range_check(min, max, value):
+    return min <= value <= max
+
 def val_byr(value):
     if len(value) == 4:
-        if not 1920 <= int(value) <= 2002:
+        if not range_check(1920, 2002, int(value)):
             return False
     else:
         return False
@@ -86,7 +86,7 @@ def val_byr(value):
 
 def val_iyr(value):
     if len(value) == 4:
-        if not 2010 <= int(value) <= 2020:
+        if not range_check(2010, 2020, int(value)):
             return False
     else:
         return False
@@ -94,7 +94,7 @@ def val_iyr(value):
 
 def val_eyr(value):
     if len(value) == 4:
-        if not 2020 <= int(value) <= 2030:
+        if not range_check(2020, 2030, int(value)):
             return False
     else:
         return False
@@ -102,10 +102,10 @@ def val_eyr(value):
 
 def val_hgt(value):
     if value.lower().endswith("cm"):
-        if not 150 <= int(value[:len(value)-2]) <= 193:
+        if not range_check(150, 193, int(value[:len(value)-2])):
             return False
     elif value.lower().endswith("in"):
-        if not 59 <= int(value[:len(value)-2]) <= 76:
+        if not range_check(59, 76, int(value[:len(value)-2])):
             return False
     else:
         return False
@@ -124,19 +124,17 @@ def val_hcl(value):
 
 
 def val_ecl(value):
-    valid_colours = ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth']
-    if value not in valid_colours:
-        return False
+    return value in ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth']
 
 
 def val_pid(value):
     if len(value) != 9:
         return False
-
-
-def val_cid(value):
-    if len(value) < 7:
-        return False 
+    else:
+        try:
+            int(value)
+        except Exception:
+            return False
 
 
 if __name__ == "__main__":
